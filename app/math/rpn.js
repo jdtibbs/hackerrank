@@ -53,6 +53,7 @@ var rpn = (function() {
   }
 
   function compute(infix) {
+    //  TODO handle precedence.
     var rpn = createRpn(infix);
     var st = [];
     rpn.forEach(function(v) {
