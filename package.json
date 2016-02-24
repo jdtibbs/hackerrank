@@ -1,0 +1,22 @@
+{
+  "name": "hackerrank",
+  "version": "1.0.0",
+  "description": "A collection of hackerrank.com exercises.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape app/**/**.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdtibbs/hackerrank.git"
+  },
+  "author": "jdtibbs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdtibbs/hackerrank/issues"
+  },
+  "homepage": "https://github.com/jdtibbs/hackerrank#readme",
+  "devDependencies": {
+    "tape": "^4.4.0"
+  }
+}
